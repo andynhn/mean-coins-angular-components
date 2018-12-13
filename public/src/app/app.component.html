@@ -1,0 +1,12 @@
+<div style="text-align:center">
+  <h5>By {{ author }}</h5>
+    <nav>
+      <a [routerLink]="['/home']">Home</a><span> | </span>
+      <a [routerLink]="['/mine']">Mine Coins</a><span> | </span> 
+      <a [routerLink]="['/buy']">Buy Coins</a><span> | </span>
+      <a [routerLink]="['/sell']">Sell Coins</a><span> | </span>
+      <a [routerLink]="['/ledger']">Browse Ledger</a>
+    </nav>
+</div>
+
+<router-outlet></router-outlet>

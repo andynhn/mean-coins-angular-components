@@ -1,0 +1,2 @@
+# Coin Assignment
+Assignment: Create your very own crypto currency website, ShintoCoins, where guests can gain new coins, buy, sell and view the transaction history of ShintoCoins. You do not have to include a database for this assignment. Instead, you may use the Service to hold data needed for multiple partials. 

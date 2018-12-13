@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Ledger Transaction Details</h1>
+  <p>Detailed view of a transaction from the ledger.</p>
+  <p>Transaction <strong>#{{transaction.id}}</strong></p>
+  <p><strong>{{transaction.action}} {{transaction.amount}}</strong> ShintoCoin</p>
+  <p>ShintoCoin Value: <strong>${{transaction.value}}.00</strong></p>
+  <a [routerLink]="['/ledger']"><button>Back To Ledger</button></a>
+</div>
+<!-- {{transactions | json}} -->
